@@ -1,0 +1,28 @@
+nav{
+    background-color: rgba(255, 255, 255, 0.623);
+    text-align: center;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+.login:hover{
+    background-image: url(../img/dollar.png);
+}
+a{
+    color:rgba(50, 133, 47, 0.61);
+    font-family: Dollar Bill;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: rgba(85, 184, 126, 0.24);
+    
+}
+/*fontes*/
+@font-face {
+    font-family: Dollar Bill;
+    src: url(Dollar\ Bill.ttf);
+}

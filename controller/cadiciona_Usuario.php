@@ -4,6 +4,6 @@
 
     extract($_REQUEST,EXTR_OVERWRITE);
 
-    if(AdicionaUsuario($conexao, $nomeUsuario, $loginUsuario, $senhaUsuario)){
+    if(AdicionaUsuario($conexao, $nomeUsuariocad, $loginUsuariocad, $senhaUsuariocad)){
         echo '<script type= "text/javascript">alert("Usuario cadastradooooooooooooooooooooooooooooooo com sucesso")</script>';
     }
